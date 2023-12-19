@@ -1,0 +1,2 @@
+
+        cout<<spf[n]<<endl;
