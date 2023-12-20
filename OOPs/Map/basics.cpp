@@ -31,7 +31,6 @@ signed main()
         }
         cout<<endl;
     }
-
     cin>>n>>m;
     rep(i,0,m)
     {
@@ -43,7 +42,7 @@ signed main()
     rep(i,0,n)
     {
         vi :: iterator it;
-        for(it = adj[i].begin();it!=adj.[i].end();it++)
+        for(it = adj[i].begin();it!=adj[i].end();it++)
         {
             cout<< *it<<" ";
         }
