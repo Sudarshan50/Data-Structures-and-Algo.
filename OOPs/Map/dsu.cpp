@@ -8,7 +8,6 @@ using namespace std;
 #define vb vector<bool>
 const int mod = 1e9+7;
 const int N = 1e5+2;
-#define int long long
 
 void makeset(vi &parent,int v,vi &size)
 {
