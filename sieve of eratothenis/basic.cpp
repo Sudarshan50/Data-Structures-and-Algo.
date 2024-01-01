@@ -1,11 +1,12 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 #define rep(i,j,k) for(int i = j;i<k;i++)
 #define vi vector<int>
+const int N = 1e5+2;
 
 void primesieve(int n)
 {
-    vi prime(n,0);
+    vi prime(N,0);
     rep(i,2,n+1)
     {
         if (prime[i] == 0)
@@ -20,7 +21,6 @@ void primesieve(int n)
     {
         if (prime[i] == 0)
         {
-            // prime[i] = i;
             cout<<i<<" ";
         }
     }
